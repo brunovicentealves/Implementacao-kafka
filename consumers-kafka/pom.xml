@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.brunoalves</groupId>
 	<artifactId>consumers-kafka</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>consumers-kafka</name>
 	<description>kafka-consumers</description>
 	<properties>
