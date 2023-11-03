@@ -3,3 +3,6 @@ Spring:
     name: 'producers'
   kafka:
     bootstrap-servers: 'localhost:9092'
+    retry:
+      topic:
+        attempts: 4
