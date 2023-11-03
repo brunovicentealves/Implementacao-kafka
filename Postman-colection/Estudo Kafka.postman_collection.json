@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "a43850de-c32f-4d65-a6e0-0ab210450723",
+		"name": "Estudo Kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8872020"
+	},
+	"item": [
+		{
+			"name": "Producer Machine",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"machineId\":1, \r\n     \"machineName\":\"Machine One\",\r\n     \"machineStatus\":\"Active\",\r\n     \"machineType\":\"PROSSURE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/machines",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"machines"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
