@@ -19,7 +19,18 @@ public class MachineEventDTO implements Serializable {
 	
 	private Long machineId;
 	private String machineName; 
-	private  String mchaineStatus;
+	private  String machineStatus;
 	private String machineType;
+	
+	
+	public MachineEventDTO(CreateMachineRequest request) {
+		super();
+		this.machineId = request.machineId();
+		this.machineName = request.machineName();
+		this.machineStatus = request.machineStatus();
+		this.machineType = request.machineType();
+	}
 
+	
+	
 }
